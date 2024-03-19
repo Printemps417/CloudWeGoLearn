@@ -1,0 +1,34 @@
+// idl/hello/hello.proto
+syntax = "proto3";
+
+package hello;
+
+option go_package = "hertz/hello";
+
+import "api.proto";
+
+message Student {
+   int64 id=1[(api.query)="id"];
+   string name=2[(api.query)="name"];
+   College college=3[(api.query)="college"];
+   string email=4[(api.query)="email"];
+}
+
+message College {
+   string name = 1[(api.query)="name"];
+   string address = 2[(api.query)="email"];
+}
+
+message  QueryReq{
+   int64 id=1[(api.query)="id"];
+}
+
+service StudentService {
+   rpc StuAddInfo(Student) returns(Student) {
+      option (api.post) = "/add-student-info";
+   }
+   rpc StuQuery(QueryReq) returns(Student) {
+      option (api.post) = "/query";
+   }
+}
+
