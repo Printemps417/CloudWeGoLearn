@@ -23,6 +23,10 @@ message  QueryReq{
   int64 id=1[(api.query)="id"];
 }
 
+message  AddResp{
+  string resp=1[(api.query)="resp"];
+}
+
 service StudentService {
   rpc StuAddInfo(Student) returns(Student) {
     option (api.post) = "/add-student-info";

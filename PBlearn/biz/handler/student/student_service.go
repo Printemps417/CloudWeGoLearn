@@ -25,9 +25,9 @@ func StuAddInfo(ctx context.Context, c *app.RequestContext) {
 		return
 	}
 	hlog.Tracef("add student info:%v", req)
+	//Go的sync.Mapm没有返回错误的机制
 	students.Store(req.Id, &req)
-	resp := new(student.Student)
-	c.JSON(consts.StatusOK, resp)
+	c.String(consts.StatusOK, "添加成功\n")
 }
 
 // StuQuery .
@@ -45,5 +45,5 @@ func StuQuery(ctx context.Context, c *app.RequestContext) {
 		c.JSON(consts.StatusOK, resp)
 		return
 	}
-	c.JSON(consts.StatusNotFound, nil)
+	c.String(consts.StatusNotFound, "查询失败\n")
 }
