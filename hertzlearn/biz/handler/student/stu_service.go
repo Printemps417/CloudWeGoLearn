@@ -14,27 +14,9 @@ import (
 
 var students sync.Map
 
-// Get .
-// @router /query [GET]
-func Get(ctx context.Context, c *app.RequestContext) {
-	var err error
-	var req student.QueryRequest
-	err = c.BindAndValidate(&req)
-	if err != nil {
-		c.String(consts.StatusBadRequest, err.Error())
-		return
-	}
-	if st,ok:=students.Load(req.ID);ok{
-		resp := st.(*student.Student)
-		c.JSON(consts.StatusOK, resp)
-		return
-	}	
-	c.JSON(consts.StatusNotFound, nil)
-}
-
-// Add .
-// @router /addinfo [POST]
-func Add(ctx context.Context, c *app.RequestContext) {
+// StuAddInfo .
+// @router /add-student-info [POST]
+func StuAddInfo(ctx context.Context, c *app.RequestContext) {
 	var err error
 	var req student.Student
 	err = c.BindAndValidate(&req)
@@ -42,9 +24,26 @@ func Add(ctx context.Context, c *app.RequestContext) {
 		c.String(consts.StatusBadRequest, err.Error())
 		return
 	}
-	hlog.Tracef("add student info:%v",req)
-	students.Store(req.ID,&req)
-	resp := new(student.Student)
+	hlog.Tracef("add student info:%v", req)
+	//Go的sync.Mapm没有返回错误的机制
+	students.Store(req.ID, &req)
+	c.String(consts.StatusOK, "添加成功\n")
+}
 
-	c.JSON(consts.StatusOK, resp)
+// StuQuery .
+// @router /query [GET]
+func StuQuery(ctx context.Context, c *app.RequestContext) {
+	var err error
+	var req student.QueryRequest
+	err = c.BindAndValidate(&req)
+	if err != nil {
+		c.String(consts.StatusBadRequest, err.Error())
+		return
+	}
+	if st, ok := students.Load(req.ID); ok {
+		resp := st.(*student.Student)
+		c.JSON(consts.StatusOK, resp)
+		return
+	}
+	c.String(consts.StatusNotFound, "查询失败\n")
 }

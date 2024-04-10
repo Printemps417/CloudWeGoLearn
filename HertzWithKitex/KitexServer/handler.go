@@ -1,0 +1,40 @@
+package main
+
+import (
+	"context"
+	"fmt"
+	demo "kitex.demo/kitex_gen/demo"
+	"sync"
+)
+
+var students sync.Map
+
+// StudentServiceImpl implements the last service interface defined in the IDL.
+type StudentServiceImpl struct{}
+
+// Register implements the StudentServiceImpl interface.
+func (s *StudentServiceImpl) Register(ctx context.Context, student *demo.Student) (resp *demo.RegisterResp, err error) {
+	// TODO: Your code here...
+	_, exists := students.Load(student.Id)
+	if exists {
+		return &demo.RegisterResp{
+			Success: false,
+			Message: "Student already exists",
+		}, nil
+	}
+
+	students.Store(student.Id, student)
+	return &demo.RegisterResp{
+		Success: true,
+		Message: "Student added successfully",
+	}, nil
+}
+
+// Query implements the StudentServiceImpl interface.
+func (s *StudentServiceImpl) Query(ctx context.Context, req *demo.QueryReq) (resp *demo.Student, err error) {
+	student, exists := students.Load(req.Id)
+	if !exists {
+		return nil, fmt.Errorf("Student with id %d does not exist", req.Id)
+	}
+	return student.(*demo.Student), nil
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe70b28f-a48a-4b3f-b519-6ac5518f9048" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../42learn/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../42learn/idl/echo.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/idl/student.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/idl/student.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idl/base.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idl/item.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idl/stock.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hertzlearn/idl/student.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KitexLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KitexLearn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idl/student.thrift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/k-consts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/k-student.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/student.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/invoker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/studentservice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PBlearn/biz/handler/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/../PBlearn/biz/handler/ping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PBlearn/m" beforeDir="false" afterPath="$PROJECT_DIR$/../PBlearn/m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzlearn/biz/handler/student/stu_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/biz/handler/student/stu_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzlearn/biz/router/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/biz/router/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzlearn/biz/router/student/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/biz/router/student/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzlearn/m" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/m" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file:$PROJECT_DIR$/../../../go/" />
+      </list>
+    </option>
+    <option name="useGoPathFromSystemEnvironment" value="false" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2erACCD2kJPfbKPH54c6VBqqece" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "C:/Users/runoob",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-2946fb9b3188-155fe4b6e3a0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.14475.38" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
