@@ -5,40 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe70b28f-a48a-4b3f-b519-6ac5518f9048" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../42learn/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../42learn/idl/echo.thrift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/idl/student.thrift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/idl/student.thrift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idl/base.thrift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idl/item.thrift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idl/stock.thrift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hertzlearn/idl/student.thrift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/restart.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/CloudWeGoLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/CloudWeGoLearn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../42learn/idl/echo.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/../42learn/idl/echo.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../42learn/output/bin/echo" beforeDir="false" afterPath="$PROJECT_DIR$/../42learn/output/bin/echo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../42learn/output/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../42learn/output/bootstrap.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/biz/handler/demo/student_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/biz/handler/demo/student_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/biz/handler/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/biz/handler/ping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/hertz.demo" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/hertz.demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/idl/student.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/idl/student.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/router_gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/router_gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/script/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/HertzServer/script/bootstrap.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/KitexServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/KitexServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/idl/student.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/idl/student.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/output/bin/kitex.demo" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/output/bin/kitex.demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/output/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../HertzWithKitex/KitexServer/output/bootstrap.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/KitexLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KitexLearn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idl/student.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/k-consts.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/k-student.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/student.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/invoker.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitex_gen/demo/studentservice/studentservice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idl/base.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/idl/base.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idl/item.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/idl/item.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idl/stock.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/idl/stock.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/item/output/bin/example.shop.item" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/item/output/bin/example.shop.item" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/item/output/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/item/output/bootstrap.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PBlearn/biz/handler/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/../PBlearn/biz/handler/ping.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PBlearn/m" beforeDir="false" afterPath="$PROJECT_DIR$/../PBlearn/m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hertzlearn/biz/handler/student/stu_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/biz/handler/student/stu_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hertzlearn/biz/router/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/biz/router/register.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hertzlearn/biz/router/student/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/biz/router/student/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/biz/handler/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/biz/handler/ping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/idl/student.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/idl/student.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/m" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/router_gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/router_gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzdemo/script/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzdemo/script/bootstrap.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hertzlearn/idl/student.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/idl/student.thrift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hertzlearn/m" beforeDir="false" afterPath="$PROJECT_DIR$/../hertzlearn/m" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,10 +84,10 @@
     </option>
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2erACCD2kJPfbKPH54c6VBqqece" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,10 +103,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/runoob",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
